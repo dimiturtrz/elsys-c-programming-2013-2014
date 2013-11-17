@@ -9,7 +9,7 @@ int main () {
 	}
 	for(counter=0;counter<10;counter++){
 		if(repetition_checker[counter]>1){
-			printf("%lld:%d\n",counter,repetition_checker[counter]);
+			printf("%lld : %d\n",counter,repetition_checker[counter]);
 		}
 	}
 return 0;
