@@ -18,7 +18,7 @@ int main () {
 	}
 	for(counter_1=0;counter_1<4;counter_1++){
 		for(counter_2=0;counter_2<4;counter_2++){
-			printf("%d",matrix[counter_1][counter_2]);
+			printf("%d ",matrix[counter_1][counter_2]);
 		}
 		printf("\n");
 	}
