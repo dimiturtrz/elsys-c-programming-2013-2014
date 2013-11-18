@@ -13,6 +13,6 @@ int main () {
 		//printf("%f\n",1/rising_value);
 		result=result+(1/rising_value);
 	}
-	printf("%f\n",result);
+	printf("%f",result);
 return 0;
 }
