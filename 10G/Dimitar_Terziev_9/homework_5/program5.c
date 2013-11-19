@@ -5,7 +5,7 @@ int main () {
 	result=0.0;
 	rising_value=1.0;
 	scanf("%d",&n);
-	while(n<0 && n>20){
+	while(n<0 || n>20){
 		scanf("%d",&n);
 	}
 	for(i=1;i<=n;i++){
